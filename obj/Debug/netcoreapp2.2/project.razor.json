@@ -1,0 +1,16 @@
+{
+  "FilePath": "/Users/atotanes/Desktop/SDGKU/FSDI110/Class2/CarRental/CarRental.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "CarRental",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}
