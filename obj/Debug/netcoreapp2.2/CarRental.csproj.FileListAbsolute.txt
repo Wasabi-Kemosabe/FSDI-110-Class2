@@ -32,3 +32,4 @@
 /Users/atotanes/Desktop/SDGKU/FSDI110/Class2/CarRental/obj/Debug/netcoreapp2.2/Razor/Views/Test/About.g.cshtml.cs
 /Users/atotanes/Desktop/SDGKU/FSDI110/Class2/CarRental/obj/Debug/netcoreapp2.2/Razor/Views/Test/Index.g.cshtml.cs
 /Users/atotanes/Desktop/SDGKU/FSDI110/Class2/CarRental/obj/Debug/netcoreapp2.2/Razor/Views/Catalog/Index.g.cshtml.cs
+/Users/atotanes/Desktop/SDGKU/FSDI110/Class2/CarRental/obj/Debug/netcoreapp2.2/Razor/Views/Catalog/Register.g.cshtml.cs

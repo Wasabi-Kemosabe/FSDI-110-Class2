@@ -1,0 +1,65 @@
+@section Styles
+{
+<link rel="stylesheet" href="~/css/register.css">
+}
+
+<form>
+    <div class="form-group">
+        <label for="make">Make</label>
+        <input type="text" class="form-control" id="make" placeholder="Enter make">
+    </div>
+    <div class="form-group">
+        <label for="model">Model</label>
+        <input type="text" class="form-control" id="model" placeholder="Enter model">
+    </div>
+    <div class="form-group">
+        <label for="year">Year of car</label>
+        <input type="number" class="form-control" id="year" placeholder="Enter year of manufacture">
+    </div>
+    <div class="form-group">
+        <label for="color">Color</label>
+        <input type="text" class="form-control" id="color" placeholder="Enter color">
+    </div>
+    <div class="form-group">
+        <label for="cylinders">Cylinders</label>
+        <input type="number" class="form-control" id="cylinders" placeholder="Enter number of cylinders">
+    </div>
+    <div class="form-group">
+        <label for="horsePower">Horsepower</label>
+        <input type="number" class="form-control" id="horsePower" placeholder="Enter horsepower of car">
+    </div>
+    <div class="form-group">
+        <label for="doors"># of Doors</label>
+        <input type="number" class="form-control" id="doors" placeholder="Enter number of doors">
+    </div>
+    <div class="form-group">
+        <label for="seats"># of Seats</label>
+        <input type="number" class="form-control" id="seats" placeholder="Enter number of seats">
+    </div>
+    <div class="form-group">
+        <label for="mileage"># of Mileage</label>
+        <input type="number" class="form-control" id="mileage" placeholder="Enter number of mileage">
+    </div>
+    <div class="form-group">
+        <label for="dailyPrice">Daily Price</label>
+        <input type="number" class="form-control" id="dailyPrice" placeholder="Enter daily rent price">
+    </div>
+    <div class="form-group">
+        <label for="imageURL">Image URL of car</label>
+        <input type="text" class="form-control" id="imageURL" placeholder="Enter the URL of the image">
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description" rows="3"></textarea>
+    </div>
+    <button id="btnSave" type="button" class="btn btn-primary">Submit</button>
+    <br>
+    <div id="divAlert" class="alert alert-success hide" role="alert">
+        Car saved successfully!
+    </div>
+</form>
+
+@section Scripts
+{
+<script src="~/js/register.js"></script>
+}

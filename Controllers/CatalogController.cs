@@ -12,6 +12,11 @@ namespace CarRental.Controllers
             return View();
         }
 
+        public IActionResult Register()
+        {
+            return View();
+        }
+
         [HttpGet]
         // Endpoint to get the list of cars to show on catalog page
         public IActionResult GetCatalog()
@@ -36,6 +41,17 @@ namespace CarRental.Controllers
             cars.Add(c1);
 
             return Json(cars);
+        }
+
+        [HttpPost]
+        public IActionResult SaveCar([FromBody] Car carToRegister)
+        {
+            System.Console.WriteLine("*******************");
+            System.Console.WriteLine("*******************");
+            System.Console.WriteLine("Saving Object", carToRegister);
+            System.Console.WriteLine("*******************");
+            System.Console.WriteLine("*******************");
+            return Json(carToRegister);
         }
     }
 }
