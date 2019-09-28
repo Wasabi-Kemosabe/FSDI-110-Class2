@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace CarRental.Models
 {
+    [Table("Cars")]
     public class Car
     {
+        [Key]
         public int Id { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
