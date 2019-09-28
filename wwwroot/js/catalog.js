@@ -20,14 +20,15 @@ function displayCar(car) {
     let template = `
         <div class="card col-6">
             <div class="row">
-                <div class="col-7">
-                    <img class="car-img" src="${car.imageURL}">
+                <div class="col-7 car-img d-flex align-items-center">
+                    <img class="rounded mx-auto d-block" src="${car.imageURL}">
                 </div>
                 <div class="col-5">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">${car.make} ${car.model}</h5>
+                        <p class="card-text">${car.description}</p>
+                        <span>$${car.dailyPrice}.00</span>
+                        <button type="button" class="btn btn-primary">Rent</button>
                     </div>
                 </div>
             </div>

@@ -4,59 +4,83 @@
 }
 
 <form>
-    <div class="form-group">
-        <label for="make">Make</label>
-        <input type="text" class="form-control" id="make" placeholder="Enter make">
+  <div class="form-group row">
+    <label for="imageURL" class="col-3 col-form-label">Image URL</label> 
+    <div class="col-9">
+      <input id="imageURL" name="imageURL" type="text" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="model">Model</label>
-        <input type="text" class="form-control" id="model" placeholder="Enter model">
+  </div>
+  <div class="form-group row">
+    <label for="make" class="col-3 col-form-label">Make</label> 
+    <div class="col-9">
+      <input id="make" name="make" type="text" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="year">Year of car</label>
-        <input type="number" class="form-control" id="year" placeholder="Enter year of manufacture">
+  </div>
+  <div class="form-group row">
+    <label for="model" class="col-3 col-form-label">Model</label> 
+    <div class="col-9">
+      <input id="model" name="model" type="text" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="color">Color</label>
-        <input type="text" class="form-control" id="color" placeholder="Enter color">
+  </div>
+  <div class="form-group row">
+    <label for="year" class="col-3 col-form-label">Year</label> 
+    <div class="col-9">
+      <input id="year" name="year" type="number" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="cylinders">Cylinders</label>
-        <input type="number" class="form-control" id="cylinders" placeholder="Enter number of cylinders">
+  </div>
+  <div class="form-group row">
+    <label for="color" class="col-3 col-form-label">Color</label> 
+    <div class="col-9">
+      <input id="color" name="color" type="text" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="horsePower">Horsepower</label>
-        <input type="number" class="form-control" id="horsePower" placeholder="Enter horsepower of car">
+  </div>
+  <div class="form-group row">
+    <label for="cylinders" class="col-3 col-form-label">Cylinders</label> 
+    <div class="col-3">
+      <input id="cylinders" name="cylinders" type="number" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="doors"># of Doors</label>
-        <input type="number" class="form-control" id="doors" placeholder="Enter number of doors">
+  </div>
+  <div class="form-group row">
+    <label for="horsePower" class="col-3 col-form-label">Horsepower</label> 
+    <div class="col-3">
+      <input id="horsePower" name="horsePower" type="number" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="seats"># of Seats</label>
-        <input type="number" class="form-control" id="seats" placeholder="Enter number of seats">
+  </div>
+  <div class="form-group row">
+    <label for="doors" class="col-3 col-form-label"># of Doors</label> 
+    <div class="col-3">
+      <input id="doors" name="doors" type="number" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="mileage"># of Mileage</label>
-        <input type="number" class="form-control" id="mileage" placeholder="Enter number of mileage">
+  </div>
+  <div class="form-group row">
+    <label for="seats" class="col-3 col-form-label"># of Seats</label> 
+    <div class="col-3">
+      <input id="seats" name="seats" type="number" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="dailyPrice">Daily Price</label>
-        <input type="number" class="form-control" id="dailyPrice" placeholder="Enter daily rent price">
+  </div>
+  <div class="form-group row">
+    <label for="mileage" class="col-3 col-form-label"># of Mileage</label> 
+    <div class="col-3">
+      <input id="mileage" name="mileage" type="number" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="imageURL">Image URL of car</label>
-        <input type="text" class="form-control" id="imageURL" placeholder="Enter the URL of the image">
+  </div>
+  <div class="form-group row">
+    <label for="dailyPrice" class="col-3 col-form-label">Daily Price</label> 
+    <div class="col-3">
+      <input id="dailyPrice" name="dailyPrice" type="number" class="form-control">
     </div>
-    <div class="form-group">
-        <label for="description">Description</label>
-        <textarea class="form-control" id="description" rows="3"></textarea>
+  </div>
+  <div class="form-group row">
+    <label for="description" class="col-3 col-form-label">Description</label> 
+    <div class="col-9">
+      <textarea id="description" name="description" cols="40" rows="5" class="form-control"></textarea>
     </div>
-    <button id="btnSave" type="button" class="btn btn-primary">Submit</button>
-    <br>
-    <div id="divAlert" class="alert alert-success hide" role="alert">
-        Car saved successfully!
+  </div> 
+  <div class="form-group row">
+    <div class="offset-3 col-9">
+      <button id="btnSave" type="button" class="btn btn-primary">Save</button>
     </div>
+  </div>
 </form>
 
 @section Scripts
