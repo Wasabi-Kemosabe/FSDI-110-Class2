@@ -16,9 +16,9 @@ function getCatalogData() {
 }
 
 function displayCar(car) {
-    let container = $("#catContainer");
+    let container = $(".catalog");
     let template = `
-        <div class="card col-6">
+        <div class="card col-sm-6">
             <div class="row">
                 <div class="col-7 car-img d-flex align-items-center">
                     <img class="rounded mx-auto d-block" src="${car.imageURL}">
